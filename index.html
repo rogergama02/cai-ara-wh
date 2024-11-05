@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caicara Eng</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/SÍMBOLO 1.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        /* Estilos básicos para o cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+            background-color: transparent; /* Cor de fundo inicial */
+            transition: background-color 0.3s ease; /* Transição suave */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/LOGO 11.png" alt="Logo Caicara Eng">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="caiçara.html">CAIÇARA</a></li>
+                <li><a href="portifolio.html">PORTFÓLIO</a></li>
+                <li><a href="empreendimentos.html">EMPREENDIMENTOS</a></li>
+                <li class="investor"><a href="investidor.html">SEJA UM <br> INVESTIDOR</a></li>
+                <li><a href="#"><i class="bi bi-envelope"></i></a></li>
+                <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                <li>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="bi bi-search"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1">
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <div class="content">
+            <h1>
+                <span style="font-family: 'Kallisto Thin';">Democratizamos,<br></span>
+                <span style="font-family: 'Kallisto Thin';">de forma humanizada,<br></span>
+                <span style="font-family: 'Kallisto Thin';">o acesso ao </span>
+                <span class="investment" style="font-family: 'Kallisto Heavy';"> investimento mais seguro</span>
+                <span style="font-family: 'Kallisto Heavy';"> que existe: <strong class="investment" style="font-family: 'Kallisto Thin';"> O imobiliário! </strong></span>
+            </h1>
+            
+            <a href="#" class="button">SAIBA MAIS</a>
+        </div>
+        <div class="whatsapp-float">
+            <a href="https://api.whatsapp.com/send?phone=+55XXXXXXXXXXX&text=Olá!%20Gostaria%20de%20saber%20mais!" target="_blank">
+                <img src="image/BOTÃO-WPP.png" alt="WhatsApp">
+            </a>
+        </div>
+    </section>
+
+    <section class="sol">
+        <h1>EMPREENDIMENTOS</h1>
+    </section>
+
+    <section class="empreendimentos">
+        <div class="empreendimentos-container">
+            <div class="empreendimento">
+                <img src="image/DSC_0152.JPG" alt="Empreendimento Limoeiro-PE">
+                <p>Limoeiro-PE</p>
+            </div>
+            <div class="empreendimento">
+                <img src="image/DSC_0152.JPG" alt="Empreendimento Limoeiro-PE">
+                <p>Limoeiro-PE</p>
+            </div>
+            <div class="empreendimento">
+                <img src="image/DSC_0152.JPG" alt="Empreendimento Caruaru-PE">
+                <p>Caruaru-PE</p>
+            </div>
+            <div class="empreendimento">
+                <img src="image/DSC_0152.JPG" alt="Empreendimento Limoeiro-PE">
+                <p>Limoeiro-PE</p>
+            </div>
+        </div>
+        <div class="saiba-mais">
+            <button>Saiba Mais</button>
+        </div>
+    </section>
+    
+    <main class="banner-two">
+        <section class="testimonials">
+            <h2>Quem já vive a verdadeira liberdade</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="circle"></div>
+                    <h3>Roberta Beltrame</h3>
+                    <p>"O que me deu segurança foi o cuidado deles com a gente [...] Fomos muito bem acolhidos e assessorados."</p>
+                </div>
+                <div class="testimonial">
+                    <div class="circle"></div>
+                    <h3>Manuel Gulias</h3>
+                    <p>"Eu tenho sempre recomendado a Neoin, sem receio nenhum [...] Uma empresa da qual tenho absoluta confiança"</p>
+                </div>
+                <div class="testimonial">
+                    <div class="circle"></div>
+                    <h3>Marcos Medina</h3>
+                    <p>"Decidi investir pela segurança de ser um investimento imobiliário. Eu tenho outros investimentos mas o mais rentável e seguro é com a Neoin!"</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="investment-form">
+        <form>
+            <div class="form-group">
+                <label for="name">Nome *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="investment">Valor disponível para investimento *</label>
+                <select id="investment" name="investment" required>
+                    <option value="" disabled selected>Escolha uma opção</option>
+                    <option value="opcao1">Opção 1</option>
+                    <option value="opcao2">Opção 2</option>
+                    <option value="opcao3">Opção 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Concordo com os termos e condições</label>
+            </div>
+            <button type="submit" class="invest-button">Quero Investir</button>
+        </form>
+    </section>
+
+    <script>
+        window.onscroll = function() {
+    var header = document.querySelector("header");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        header.style.backgroundColor = "black"; // Cor de fundo ao rolar
+    } else {
+        header.style.backgroundColor = "transparent"; // Cor de fundo original
+    }
+};
+
+    </script>
+</body>
+</html>
